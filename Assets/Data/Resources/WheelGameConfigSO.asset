@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8a5a0cf133e18498625ba0544a0c95, type: 3}
+  m_Name: WheelGameConfigSO
+  m_EditorClassIdentifier: 
+  safeZoneInterval: 5
+  superZoneInterval: 30
+  rewardGrowthPerZone: 0.15
+  cashRewardId: cash
+  goldRewardId: gold
+  startingCash: 0
+  startingGold: 50
+  reviveGoldCost: 25
+  reviveGoldCostGrowthMultiplier: 1.07
+  rewardPopupHoldSeconds: 1
+  rewardPopupMaxBurstIcons: 50
+  rewardPopupIconScaleRange: {x: 0.85, y: 1.15}
+  rewardIconBinding: {fileID: 11400000, guid: 67f3529c3c3c4405a63d64c4ebd1d5f1, type: 2}
+  normalWheel:
+    wheelId: wheel_normal
+    slices:
+    - sliceId: slice_cash_small
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 250
+      weight: 5
+      displayLabel: x250
+    - sliceId: slice_gold_small
+      sliceType: 0
+      rewardId: gold
+      baseAmount: 5
+      weight: 4
+      displayLabel: x5
+    - sliceId: slice_pistol
+      sliceType: 0
+      rewardId: pistol
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_armor
+      sliceType: 0
+      rewardId: armor
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_shotgun
+      sliceType: 0
+      rewardId: shotgun
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_cash_medium
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 500
+      weight: 3
+      displayLabel: x500
+    - sliceId: slice_chest_small
+      sliceType: 0
+      rewardId: chest_small
+      baseAmount: 1
+      weight: 1
+      displayLabel: x1
+    - sliceId: slice_bomb
+      sliceType: 1
+      rewardId: 
+      baseAmount: 1
+      weight: 2
+      displayLabel: BOMB
+  safeWheel:
+    wheelId: wheel_safe_silver
+    slices:
+    - sliceId: slice_cash_large
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 750
+      weight: 5
+      displayLabel: x750
+    - sliceId: slice_gold_medium
+      sliceType: 0
+      rewardId: gold
+      baseAmount: 12
+      weight: 4
+      displayLabel: x12
+    - sliceId: slice_rifle
+      sliceType: 0
+      rewardId: rifle
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_smg
+      sliceType: 0
+      rewardId: smg
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_knife
+      sliceType: 0
+      rewardId: knife
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_armor_safe
+      sliceType: 0
+      rewardId: armor
+      baseAmount: 2
+      weight: 1
+      displayLabel: x2
+    - sliceId: slice_chest_safe
+      sliceType: 0
+      rewardId: chest_silver
+      baseAmount: 2
+      weight: 1
+      displayLabel: x2
+    - sliceId: slice_cash_safe_bonus
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 1200
+      weight: 2
+      displayLabel: x1200
+  superWheel:
+    wheelId: wheel_super_gold
+    slices:
+    - sliceId: slice_chest_super_top
+      sliceType: 0
+      rewardId: chest_gold
+      baseAmount: 10
+      weight: 2
+      displayLabel: x10
+    - sliceId: slice_gold_one
+      sliceType: 0
+      rewardId: gold
+      baseAmount: 1
+      weight: 2
+      displayLabel: x1
+    - sliceId: slice_cash_super_right
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 2000
+      weight: 3
+      displayLabel: x2000
+    - sliceId: slice_gold_hundred
+      sliceType: 0
+      rewardId: gold
+      baseAmount: 100
+      weight: 3
+      displayLabel: x100
+    - sliceId: slice_cash_super_bottom
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 300
+      weight: 3
+      displayLabel: x300
+    - sliceId: slice_healthshot_super
+      sliceType: 0
+      rewardId: healthshot
+      baseAmount: 10
+      weight: 2
+      displayLabel: x10
+    - sliceId: slice_gold_two_hundred
+      sliceType: 0
+      rewardId: gold
+      baseAmount: 200
+      weight: 3
+      displayLabel: x200
+    - sliceId: slice_cash_super_left
+      sliceType: 0
+      rewardId: cash
+      baseAmount: 10000
+      weight: 3
+      displayLabel: x10K
